@@ -14,19 +14,19 @@
 ### Installation
 For WSL \
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` \
-- Proceeding with default installation \
-- restart terminal \
-- it installs a few utilities \
+- Proceeding with default installation 
+- restart terminal 
+- it installs a few utilities 
 `rustup --version` \
 `rustc --version` \
-`cargo --version` \
+`cargo --version` 
 ### Running
 #### hello world  
 `vim hello.rs`  
 `rustc hello.rs`  
 `./hello`  
 #### practical applications 
-you use cargo to setup project for you instead of indicidual files  
+- you use cargo to setup project for you instead of indicidual files  
 `mkdir cargo_hello`  
 `cargo init`  
 - created a few files and folders for us  
@@ -39,3 +39,4 @@ you use cargo to setup project for you instead of indicidual files
 - variables
 - types
 - strings
+- tuples
