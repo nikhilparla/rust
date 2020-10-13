@@ -1,12 +1,15 @@
 ### Intro
-- System programming language
-- System language
+- Rust is a System programming language
+- System programming languages
 	- C, C++, RUST
-### Appliciation programming language
-- JAVA, C#, JAVAScript
+- Appliciation programming languages
+	- JAVA, C#, JAVAScript
 ### Memory Management
 - Doesnt have garbage collection, no need of managing memory
 - C and C++ you need to handle memory yourself
+- Rust has completely deterministic memory management, enforced at COMPILE time
+	- there are some rules for data ownership and borrowing built into the language. These rules ensure a correct memory management system. Look at this video for further details
+		- https://www.youtube.com/watch?v=2IxQgXQl_Ws
 ### Package manager
 - Rust - Cargo
 - pip for python
