@@ -21,11 +21,11 @@ For WSL \
 `rustc --version` \
 `cargo --version` 
 ### Running
-#### hello world  
+#### Hello world  
 `vim hello.rs`  
 `rustc hello.rs`  
 `./hello`  
-#### practical applications 
+#### Practical applications 
 - you use cargo to setup project for you instead of indicidual files  
 `mkdir cargo_hello`  
 `cargo init`  
@@ -40,3 +40,4 @@ For WSL \
 - types
 - strings
 - tuples
+- arrays
