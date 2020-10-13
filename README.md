@@ -20,17 +20,17 @@
 	`rustc --version`
 	`cargo --version`
 * Running
-	* hello world
-		`vim hello.rs`
-		`rustc hello.rs`
-		`./hello`
+	* hello world  
+		`vim hello.rs`  
+		`rustc hello.rs`  
+		`./hello`  
 	* practical applications 
-		you use cargo to setup project for you instead of indicidual files
-		`mkdir cargo_hello`
-		`cargo init`
-		created a few files and folders for us
-		also created a main.rs file for us with a hello world print command
-		`cargo run` 	- builds and runs the project
-		`cargo build` 	- only build
-		`cargo build --release`	- build for production with optimizations
+		you use cargo to setup project for you instead of indicidual files  
+		`mkdir cargo_hello`  
+		`cargo init`  
+		created a few files and folders for us  
+		also created a main.rs file for us with a hello world print command  
+		`cargo run` 	- builds and runs the project  
+		`cargo build` 	- only build  
+		`cargo build --release`	- build for production with optimizations  
 		
