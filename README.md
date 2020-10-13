@@ -1,16 +1,17 @@
+### Intro
 * System programming language
 * System language
 	* C, C++, RUST
-* Appliciation programming language
+### Appliciation programming language
 	* JAVA, C#, JAVAScript
-* Memory Management
+### Memory Management
 	* Doesnt have garbage collection, no need of managing memory
 	* C and C++ you need to handle memory yourself
-* Has its own package manager
+### Has its own package manager
 	* name - Cargo
 	* pip for python
 	* composer for php
-* Installation
+### Installation
 	For WSL \
 	`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` \
 	* Proceeding with default installation \
@@ -19,12 +20,12 @@
 	`rustup --version` \
 	`rustc --version` \
 	`cargo --version` \
-* Running
-	* hello world  
+### Running
+	#### hello world  
 		`vim hello.rs`  
 		`rustc hello.rs`  
 		`./hello`  
-	* practical applications 
+	#### practical applications 
 		you use cargo to setup project for you instead of indicidual files  
 		`mkdir cargo_hello`  
 		`cargo init`  
@@ -32,5 +33,7 @@
 		* also created a main.rs file for us with a hello world print command  
 		`cargo run` 	- builds and runs the project  
 		`cargo build` 	- only build  
-		`cargo build --release`	- build for production with optimizations  
-		
+		`cargo build --release`	- build for production with optimizations
+### Topics
+	* print formattings
+	* variables

@@ -1,5 +1,6 @@
-mod print;  // name of the rust file
+// mod print;  // name of the rust file
+mod vars;
 
 fn main() {
-    print::run();
+    vars::run();
 }
