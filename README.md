@@ -11,14 +11,14 @@
 	* pip for python
 	* composer for php
 * Installation
-	For WSL
-	`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-	Proceeding with default installation
-	restart terminal
-	it installs a few utilities 
-	`rustup --version`
-	`rustc --version`
-	`cargo --version`
+	For WSL \
+	`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` \
+	Proceeding with default installation \
+	restart terminal \
+	it installs a few utilities \
+	`rustup --version` \
+	`rustc --version` \
+	`cargo --version` \
 * Running
 	* hello world  
 		`vim hello.rs`  
