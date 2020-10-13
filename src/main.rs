@@ -4,7 +4,8 @@
 // mod strings;
 // mod tuples;
 // mod arrays;
-mod pointers_ref;
+// mod pointers_ref;
+mod structs;
 
 fn main() {
     // vars::run();
@@ -12,5 +13,5 @@ fn main() {
     // strings::run();
     // tuples.run();
     // arrays::run();
-    pointers_ref::run();
+    structs::run();
 }
