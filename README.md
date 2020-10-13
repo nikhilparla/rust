@@ -36,16 +36,19 @@ For WSL \
 `cargo build --release`	- build for production with optimizations
 ### Topics
 - print formattings
- - basic formatting of prints
+	- basic formatting of prints
 - variables
 - types
 - strings
- - primitive strings and heap allocated String data structure
+	- primitive strings and heap allocated String data structure
 - tuples
- - similar to struct but more functions to operate on
+	- similar to struct but more functions to operate on
 - arrays
- - primitive arrays
+	- primitive arrays
 - Pointers and reference
 - structs
- - very important in Rust. Check the file, has lot of comments
- - like classes in python, php. Can have functions to act on structs
+	- very important in Rust. Check the file, has lot of comments
+	- like classes in python, php. Can have functions to act on structs
+
+There are other topics like functions, enums, loops etc but ignored them since some of them are implemented in the pointers topic and structures topic.\
+Lots of comments in the files, so they can be used as reference.\
