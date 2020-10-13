@@ -41,3 +41,4 @@ For WSL \
 - strings
 - tuples
 - arrays
+- Pointers and reference
