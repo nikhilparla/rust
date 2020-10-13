@@ -1,3 +1,5 @@
+mod print;  // name of the rust file
+
 fn main() {
-    println!("Hello, world!");
+    print::run();
 }
